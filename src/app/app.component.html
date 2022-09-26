@@ -1,0 +1,27 @@
+<h1>{{ arr[index] }}</h1>
+<button (click)="success()" style="width:200px; height:100px; font-size:20px">
+  Success
+</button>
+<br>
+<br>
+<button (click)="fail()" style="width:200px; height:100px; font-size:20px">
+  Fail
+</button>
+<h3>
+  Letters Left: {{lengthOfArr}}
+</h3>
+<br>
+<br>
+<button (click)="restart()" style="width:100px; height:30px; font-size:15px">
+  Restart
+</button>
+<br>
+<br>
+<button (click)="chooseLang(this.backupArrGreek)" style="width:100px; height:30px; font-size:15px">
+Greek
+</button>
+<br>
+<br>
+<button (click)="chooseLang(this.backupArrArmenian)" style="width:100px; height:30px; font-size:15px">
+Armenian
+</button>
