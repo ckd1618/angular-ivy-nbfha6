@@ -60,5 +60,4 @@ export class AppComponent  {
     this.lengthOfArr = this.arr.length;
     this.fun1();
   }
-
 }
